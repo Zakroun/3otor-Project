@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="webesite icon" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Man | 3otor</title>
+</head>
+
+<body id="header">
+    <div class="bare">
+        <a href="homepage.html">
+            <h5 class="Parfums">Parfums <span class="otor">3 O T O R</span></h5>
+        </a>
+        <div class="search_container">
+            <input type="text" class="search" placeholder="Search your best perfume...">
+            <a href="#"><img src="images\search.png" alt="Search Icon"
+                    class="search_icon"></a>
+        </div>
+        <div class="aa">
+            <div class="a"><a href="homepage.html"><img src="images\home.png"
+                        alt="Icon" class="icon">Page d’accueil</a></div>
+            <div class="a"><a href="produits.html"><img src="images\perfume.png"
+                        alt="Icon" class="icon">Nos produits</a></div>
+            <div class="a"><a href="login.html"><img src="images\log.png" alt="Icon"
+                        class="icon">Connexion</a></div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+        </div>
+    </div>
+
+    <div class="contpart">
+        <div class="part1">
+            <div class="imgg">
+                <img src="images\man1.jpg" alt="..." loading="lazy" id="big_img">
+            </div>
+            <div class="imgg_smallcont">
+                <a
+                    onclick='document.getElementById("big_img").src="images\\man1.jpg"'><img
+                        src="images\man1.jpg" alt="..." loading="lazy"
+                        id="small_img" class="smallimg">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\man.jpg"'><img
+                        src="images\man.jpg" alt="..." loading="lazy" id="small_img">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\man3.jpg"'>
+                    <img src="images\man3.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+            </div>
+        </div>
+        <div class="part2">
+            <h1>MAN IN BLACK PARFUM</h1>
+            <h4>man</h4>
+            <p class="ppart">
+                Découvrez Bvlgari Man in Black Parfum. La puissance mythique du feu <br> capturée dans une signature
+                ambrée
+                boisée intense et charismatique pour <br> une masculinité extrêmement sophistiquée et unique. Avec une
+                élégance <br> unique, Bvlgari Man in Black Parfum élève l'Eau de Parfum originale à un <br> niveau
+                supérieur de
+                densité, de richesse et de raffinement, incarnant une <br> masculinité contemporaine à travers sa
+                signature
+                boisée ambrée. <br>
+
+                Avec ses notes de tête épicées, addictives et vibrantes qui se dénotent en <br>douceur dans la floralité
+                opulente de la tubéreuse et de l'iris, Bvlgari Man in <br> Black Parfum laisse place à un accord de bois
+                sombre pour une composition <br> contrastante et texturée. Élaboré par le maître parfumeur Alberto
+                Morillas, <br>
+                c'est le parfum le plus riche et le plus concentré de la collection Bulgari Man à <br> ce jour. <br>
+
+                Le flacon entièrement noir offre une interprétation intense des codes <br> esthétiques Bulgari Man in
+                Black.
+                L'utilisation audacieuse et dramatique du noir <br> incarne la plus forte concentration du parfum, avec
+                un
+                contraste plus marqué <br>entre le noir et l'or rose de l'Eau de Parfum.
+            </p>
+            <div id="sous_div">
+                MAN IN BLACK PARFUM is available for purchase in increments of 1
+            </div>
+            <p>
+                <span class="spann1" id="prix13">1 115,20 MAD</span>
+                <span class="spann2">Disponibilité : En stock</span>
+            <p class="obliga">* Champs obligatoires</p>
+            <label for="Contenance">Contenance <span id="etoile">*</span></label><br><br>
+            <select name="Contenance" class="Contenance" id="prix13_Contenance" onchange="updatePrice('prix13')">
+                <option value="Choisissez">Choisissez une option...</option>
+                <option value="100ml">100ml +585,00 MAD</option>
+                <option value="50ml">50ml</option>
+            </select><br><br>
+            <input type="submit" value="Demander" id="demande_btn" onclick="demander()">
+        </div>
+        <div class="part3">
+            <div><img src="images\bvlgari.png" alt="..." loading="lazy"
+                    id="right_img">
+            </div>
+            <div class="ENGA">
+                <p>NOS ENGAGEMENTS</p>
+                <div class="nbp">
+                    <div class="nbr">1</div>
+                    <div>Paiement sécurisé</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">2</div>
+                    <div>Emballage Cadeau offert</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">3</div>
+                    <div>Livraison en 2 à 5 jours ouvrables</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">4</div>
+                    <div>Echantillons offerts</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Description_cont">
+        <button value="submit" id="Description">
+            Description du produit
+        </button><br>
+        <div class="Description_text">
+            <hr id="hr1">
+            Découvrez Bvlgari Man in Black Parfum. La puissance mythique du feu capturée dans une signature ambrée
+            boisée intense et charismatique pour une masculinité extrêmement sophistiquée<br> et unique. Avec une
+            élégance
+            unique, Bvlgari Man in Black Parfum élève l'Eau de Parfum originale à un niveau supérieur de densité,
+            de
+            richesse et de raffinement, incarnant une masculinité<br> contemporaine à travers sa signature boisée
+            ambrée. <br>
+
+            Avec ses notes de tête épicées, addictives et vibrantes qui se dénotent en douceur dans la floralité
+            opulente de la tubéreuse et de l'iris, Bvlgari Man in Black Parfum laisse place à un accord<br> de bois
+            sombre
+            pour une composition contrastante et texturée. Élaboré par le maître parfumeur Alberto Morillas, c'est
+            le
+            parfum le plus riche et le plus concentré de la collection Bulgari<br> Man à ce jour. <br>
+
+            Le flacon entièrement noir offre une interprétation intense des codes esthétiques Bulgari Man in Black.
+            L'utilisation audacieuse et dramatique du noir incarne la plus forte concentration<br> du parfum, avec un
+            contraste plus marqué entre le noir et l'or rose de l'Eau de Parfum.
+            <hr id="hr2">
+        </div>
+    </div>
+    <button id="scrollButton" onclick="scrollToHeader()"><img src="images\arrow.png"
+        alt="not found" id="scrol" loading="lazy"></button>
+    <footer>
+        <img src="images\botoomimg.png" alt="..." loading="lazy" id="botoomimg">
+        <p class="imgpar">
+            Beauty Success | 3otor est un Réseau de 100 <br>parfumeries au Maroc, spécialiste <br> accessible de la
+            beauté globale.
+        </p>
+
+        <div class="ENGAGEMENTS">
+            <p>NOS ENGAGEMENTS</p>
+            <div class="nbp">
+                <div class="nbr">1</div>
+                <div>Paiement sécurisé</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">2</div>
+                <div>Emballage Cadeau offert</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">3</div>
+                <div>Livraison en 2 à 5 jours ouvrables</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">4</div>
+                <div>Echantillons offerts</div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://facebook.com/3otor" target="_blank">
+                <img src="images\facebook.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://instagram.com/3otor" target="_blank">
+                <img src="images\instagram.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://tiktok.com/3otor" target="_blank">
+                <img src="images\tiktok.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://twitter.com/3otor" target="_blank">
+                <img src="images\twitter.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+        </div>
+
+        <p class="adress">
+            <img src="images\pin.png" alt="..." loading="lazy" id="adte">AddressN° 2
+            , Corner Rue molay abd lah, Meknes - Morocco<br>
+            <img src="images\telephone.png" alt="..." id="adte">Fixe & Whatsapp :
+            +212 6 18 38 23 85 <br>
+            <img src="images\email.png" alt="..." loading="lazy" id="adte">E-mail :
+            GazaTravel@gmail.com
+        </p>
+        <div class="insciption">
+            <input type="email" id="email" name="email" placeholder="Saisissez votre email">
+            <a href="login.html"><input type="submit" value="Inscription" id="Inscription"></a>
+        </div>
+        <div class="divbottom">
+            <p class="botoom">
+                © 2024 Beauty Success | 3otor - Morocco
+            </p>
+            <img src="images\paiements.png" alt="..." loading="lazy" id="paiements">
+        </div>
+    </footer>
+</body>
+
+</html>

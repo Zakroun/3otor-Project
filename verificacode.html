@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="webesite icon" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>verificacode | 3otor</title>
+</head>
+
+<body id="header">
+    <div class="bare">
+        <a href="homepage.html">
+            <h5 class="Parfums">Parfums <span class="otor">3 O T O R</span></h5>
+        </a>
+        <div class="search_container">
+            <input type="text" class="search" placeholder="Search your best perfume...">
+            <a href="#"><img src="images\search.png" alt="Search Icon"
+                    class="search_icon"></a>
+        </div>
+        <div class="aa">
+            <div class="a"><a href="homepage.html"><img src="images\home.png"
+                        alt="Icon" class="icon">Page d’accueil</a></div>
+            <div class="a"><a href="produits.html"><img src="images\perfume.png"
+                        alt="Icon" class="icon">Nos produits</a></div>
+            <div class="a"><a href="login.html"><img src="images\log.png" alt="Icon"
+                        class="icon">Connexion</a></div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+        </div>
+
+    </div>
+
+    <p class="créez2">le code de vérification</p>
+    <div class="motdepass">
+        <div class="tit">Récupérez votre mot de passe</div>
+        <div class="tit2">Veuillez saisir le code de vérification envoyé à cet e-mail ********@gmail.com<br><br>
+            <label for="Adresse" class="Adresse1">code de vérification :</label><br><br>
+            <input type="text" id="i1" class="input">
+            <input type="text" id="i2" class="input">
+            <input type="text" id="i3" class="input">
+            <input type="text" id="i4" class="input">
+            <input type="text" id="i5" class="input">
+            <input type="text" id="i6" class="input"><br><br>
+            <script>
+                var in1 = document.querySelector("#i1");
+                var in2 = document.querySelector("#i2");
+                var in3 = document.querySelector("#i3");
+                var in4 = document.querySelector("#i4");
+                var in5 = document.querySelector("#i5");
+                var in6 = document.querySelector("#i6");
+                window.onload = function () {
+                    in1.focus();
+                }
+                in1.oninput = function () {
+                    if (in1.value.length >= 1) {
+                        in2.focus();
+                    }
+                }
+                in2.oninput = function () {
+                    if (in2.value.length >= 1) {
+                        in3.focus();
+                    }
+                }
+                in3.oninput = function () {
+                    if (in3.value.length >= 1) {
+                        in4.focus();
+                    }
+                }
+                in4.oninput = function () {
+                    if (in4.value.length >= 1) {
+                        in5.focus();
+                    }
+                }
+                in5.oninput = function () {
+                    if (in5.value.length >= 1) {
+                        in6.focus();
+                    }
+                }
+                in6.oninput = function () {
+                    if (in6.value.length >= 1) {
+                        window.location.href = "nouvmotdepass.html"
+                    }
+                }
+            </script>
+        </div>
+        <div class="tit3">
+            <a href="Motdepasse.html"><span id="span4">
+                    < Retour</span></a>
+            <div id="a"><a href="nouvmotdepass.html"><input type="submit" value="Valider" id="créerr"></a></div>
+        </div>
+    </div>
+    <button id="scrollButton" onclick="scrollToHeader()"><img src="images\arrow.png"
+        alt="not found" id="scrol" loading="lazy"></button>
+    <footer>
+        <img src="images\botoomimg.png" alt="..." loading="lazy" id="botoomimg">
+        <p class="imgpar">
+            Beauty Success | 3otor est un Réseau de 100 <br>parfumeries au Maroc, spécialiste <br> accessible de la
+            beauté globale.
+        </p>
+
+        <div class="ENGAGEMENTS">
+            <p>NOS ENGAGEMENTS</p>
+            <div class="nbp">
+                <div class="nbr">1</div>
+                <div>Paiement sécurisé</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">2</div>
+                <div>Emballage Cadeau offert</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">3</div>
+                <div>Livraison en 2 à 5 jours ouvrables</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">4</div>
+                <div>Echantillons offerts</div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://facebook.com/3otor" target="_blank">
+                <img src="images\facebook.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://instagram.com/3otor" target="_blank">
+                <img src="images\instagram.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://tiktok.com/3otor" target="_blank">
+                <img src="images\tiktok.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://twitter.com/3otor" target="_blank">
+                <img src="images\twitter.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+        </div>
+
+        <p class="adress">
+            <img src="images\pin.png" alt="..." loading="lazy" id="adte">AddressN° 2
+            , Corner Rue molay abd lah, Meknes - Morocco<br>
+            <img src="images\telephone.png" alt="..." id="adte">Fixe & Whatsapp :
+            +212 6 18 38 23 85 <br>
+            <img src="images\email.png" alt="..." loading="lazy" id="adte">E-mail :
+            GazaTravel@gmail.com
+        </p>
+        <div class="insciption">
+            <input type="email" id="email" name="email" placeholder="Saisissez votre email">
+            <a href="login.html"><input type="submit" value="Inscription" id="Inscription"></a>
+        </div>
+        <div class="divbottom">
+            <p class="botoom">
+                © 2024 Beauty Success | 3otor - Morocco
+            </p>
+            <img src="images\paiements.png" alt="..." loading="lazy" id="paiements">
+        </div>
+    </footer>
+</body>
+
+</html>

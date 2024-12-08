@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="webesite icon" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Musc | 3otor</title>
+</head>
+
+<body id="header">
+    <div class="bare">
+        <a href="homepage.html"><h5 class="Parfums">Parfums <span class="otor">3 O T O R</span></h5></a>
+        <div class="search_container">
+            <input type="text" class="search" placeholder="Search your best perfume...">
+            <a href="#"><img src="images\search.png" alt="Search Icon"
+                    class="search_icon"></a>
+        </div>
+        <div class="aa">
+            <div class="a"><a href="homepage.html"><img src="images\home.png"
+                        alt="Icon" class="icon">Page d’accueil</a></div>
+            <div class="a"><a href="produits.html"><img src="images\perfume.png"
+                        alt="Icon" class="icon">Nos produits</a></div>
+            <div class="a"><a href="login.html"><img src="images\log.png" alt="Icon"
+                        class="icon">Connexion</a></div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+        </div>
+    </div>
+
+    <div class="contpart">
+        <div class="part1">
+            <div class="imgg">
+                <img src="images\musc1.jpg" alt="..." loading="lazy" id="big_img">
+            </div>
+            <div class="imgg_smallcont">
+                <a
+                    onclick='document.getElementById("big_img").src="images\\musc1.jpg"'><img
+                        src="images\musc1.jpg" alt="..." loading="lazy"
+                        id="small_img" class="smallimg">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\musc.jpg"'><img
+                        src="images\musc.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\musc3.jpg"'>
+                    <img src="images\musc3.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+            </div>
+        </div>
+        <div class="part2">
+            <h1>FOR HER MUSC NUDE</h1>
+            <h4>musc nude</h4>
+            <p class="ppart">
+                Découvrez for her MUSC NUDE eau de parfum, le nouveau parfum féminin <br> vegan de Narciso Rodriguez,
+                véritable concentré de sensualité. Enveloppant la <br> peau d'une brise de douceur, cette fragrance vous
+                étreint dans un cocon <br> protecteur à l'effet seconde peau. Célébrant la féminité éternelle, ce
+                paisible <br>
+                souffle parfumé joue une légère mélodie qui vient rythmer votre symphonie <br> intérieure. Un secret
+                bien
+                gardé qui s'inscrira dans une routine de soin <br> quotidienne comme le plus précieux des joyaux. <br>
+
+                Un parfum floriental musqué doux et délicat. Avec for her MUSC NUDE, le <br> célèbre nez Sonia Constant,
+                à
+                l'origine des compositions for her les plus <br> iconiques, a imaginé une nouvelle interprétation de la
+                famille des chyprés. <br> Cette eau de parfum s'articule autour d'une structure olfactive élégante et
+                <br>
+                intemporelle, sublimée par des facettes solaires et le cœur de musc signature <br> de Narciso Rodriguez.
+                Un
+                accord piquant de baies roses rencontre un <br> bouquet abstrait de fleurs blanches délicates tandis que
+                le
+                parfum vient <br> effleurer la peau. Au centre de la composition, le cœur de musc emblématique <br> de
+                la
+                collection for her s'enrichit de notes florales, d'huile de rose précieuse <br> et fleur d'oranger. À
+                mesure
+                que le parfum évolue, la richesse de l'absolue de <br> fève tonka s'entremêle à la douceur du bois de
+                cèdre
+                et du patchouli pour <br> vous envelopper dans une chaleur réconfortante.
+            </p>
+            <div id="sous_div">
+                FOR HER MUSC NUDE is available for purchase in increments of 1
+            </div>
+            <p>
+                <span class="spann1" id="prix14">644,80 MAD</span>
+                <span class="spann2">Disponibilité : En stock</span>
+            <p class="obliga">* Champs obligatoires</p>
+            <label for="Contenance">Contenance <span id="etoile">*</span></label><br><br>
+            <select name="Contenance" class="Contenance" id="prix14_Contenance" onchange="updatePrice('prix14')">
+                <option value="Choisissez">Choisissez une option...</option>
+                <option value="100ml">100ml +585,00 MAD</option>
+                <option value="50ml">50ml</option>
+            </select><br><br>
+            <input type="submit" value="Demander" id="demande_btn" onclick="demander()">
+        </div>
+        <div class="part3">
+            <div><img src="images\narcisorodriguez.png" alt="..." loading="lazy"
+                    id="right_img">
+            </div>
+            <div class="ENGA">
+                <p>NOS ENGAGEMENTS</p>
+                <div class="nbp">
+                    <div class="nbr">1</div>
+                    <div>Paiement sécurisé</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">2</div>
+                    <div>Emballage Cadeau offert</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">3</div>
+                    <div>Livraison en 2 à 5 jours ouvrables</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">4</div>
+                    <div>Echantillons offerts</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Description_cont">
+        <button value="submit" id="Description">
+            Description du produit
+        </button><br>
+        <div class="Description_text">
+            <hr id="hr1">
+            Découvrez for her MUSC NUDE eau de parfum, le nouveau parfum féminin vegan de Narciso Rodriguez, véritable
+            concentré de sensualité. Enveloppant la peau d'une brise de douceur, cette fragrance<br> vous étreint dans un 
+            cocon protecteur à l'effet seconde peau. Célébrant la féminité éternelle, ce paisible souffle parfumé joue
+            une légère mélodie qui vient rythmer votre symphonie intérieure. Un secret<br> bien gardé qui s'inscrira dans 
+            une routine de soin quotidienne comme le plus précieux des joyaux. <br>
+
+            Un parfum floriental musqué doux et délicat. Avec for her MUSC NUDE, le célèbre nez Sonia Constant, à
+            l'origine des compositions for her les plus iconiques, a imaginé une nouvelle interprétation <br>de la famille 
+            des chyprés. Cette eau de parfum s'articule autour d'une structure olfactive élégante et intemporelle,
+            sublimée par des facettes solaires et le cœur de musc signature de Narciso Rodriguez.<br> Un accord piquant de 
+            baies roses rencontre un bouquet abstrait de fleurs blanches délicates tandis que le parfum vient effleurer
+            la peau. Au centre de la composition, le cœur de musc emblématique<br> de la collection for her s'enrichit de 
+            notes florales, d'huile de rose précieuse et fleur d'oranger. À mesure que le parfum évolue, la richesse de
+            l'absolue de fève tonka s'entremêle à la douceur du bois<br> de cèdre et du patchouli pour vous envelopper dans 
+            une chaleur réconfortante. <br>
+
+            Un flacon de parfum aux teintes roses nudes. for her MUSC NUDE revisite l'emblématique flacon de for her à
+            travers un fini givré intégralement teinté de rose nude et un capot mat assorti.<br> Résultat : un design aussi 
+            doux et enveloppant que le parfum qu'il contient. Reflétant l'élégance de la fragrance, les lignes
+            sophistiquées du flacon dessinent un objet précieux à l'esthétique<br> parfaitement équilibrée. L'art du musc, 
+            un rituel de parfumage tout en sensualité. <br>
+
+            Le rituel de parfumage L'art du musc est un instant sensoriel à savourer au quotidien dans le cadre de votre
+            routine bien-être. -\tLe secret pour prolonger la tenue de votre parfum réside dans le<br> soin de la peau. 
+            Commencez par l'hydrater pour permettre à votre fragrance d'adhérer aux molécules d'eau et ainsi de déployer
+            son sillage toute la journée. -\tPersonnalisez votre parfum grâce à <br> l'art du layering. Associez for her MUSC
+            NUDE à for her PURE MUSC de Narciso Rodriguez pour créer une composition signature unique qui reflète votre
+            authenticité. Commencez par<br> vaporiser une brume enveloppante de for her PURE MUSC sur votre peau. 
+            -\tEnsuite, vaporisez for her MUSC NUDE sur vos points de pulsation (les poignets, l'intérieur des coudes,
+            le décolleté<br> et derrière les oreilles) pour le diffuser délicatement grâce à la chaleur de votre corps. <br>
+
+            Une approche plus éco-responsable. for her MUSC NUDE repense la parfumerie à travers une approche plus
+            écoresponsable. Le packaging respecte également l'environnement<br> en proposant un flacon sans laquage 
+            intérieur et un étui fabriqué à partir de papier 100% FSCTM.
+            <hr id="hr2">
+        </div>
+    </div>
+    <button id="scrollButton" onclick="scrollToHeader()"><img src="images\arrow.png"
+        alt="not found" id="scrol" loading="lazy"></button>
+    <footer>
+        <img src="images\botoomimg.png" alt="..." loading="lazy" id="botoomimg">
+        <p class="imgpar">
+            Beauty Success | 3otor est un Réseau de 100 <br>parfumeries au Maroc, spécialiste <br> accessible de la
+            beauté globale.
+        </p>
+
+        <div class="ENGAGEMENTS">
+            <p>NOS ENGAGEMENTS</p>
+            <div class="nbp">
+                <div class="nbr">1</div>
+                <div>Paiement sécurisé</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">2</div>
+                <div>Emballage Cadeau offert</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">3</div>
+                <div>Livraison en 2 à 5 jours ouvrables</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">4</div>
+                <div>Echantillons offerts</div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://facebook.com/3otor" target="_blank">
+                <img src="images\facebook.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://instagram.com/3otor" target="_blank">
+                <img src="images\instagram.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://tiktok.com/3otor" target="_blank">
+                <img src="images\tiktok.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://twitter.com/3otor" target="_blank">
+                <img src="images\twitter.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+        </div>
+
+        <p class="adress">
+            <img src="images\pin.png" alt="..." loading="lazy" id="adte">AddressN° 2
+            , Corner Rue molay abd lah, Meknes - Morocco<br>
+            <img src="images\telephone.png" alt="..." id="adte">Fixe & Whatsapp :
+            +212 6 18 38 23 85 <br>
+            <img src="images\email.png" alt="..." loading="lazy" id="adte">E-mail :
+            GazaTravel@gmail.com
+        </p>
+        <div class="insciption">
+            <input type="email" id="email" name="email" placeholder="Saisissez votre email">
+            <a href="login.html"><input type="submit" value="Inscription" id="Inscription"></a>
+        </div>
+        <div class="divbottom">
+            <p class="botoom">
+                © 2024 Beauty Success | 3otor - Morocco
+            </p>
+            <img src="images\paiements.png" alt="..." loading="lazy" id="paiements">
+        </div>
+    </footer>
+</body>
+
+</html>

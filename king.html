@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="webesite icon" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>King | 3otor</title>
+</head>
+
+<body id="header">
+    <div class="bare">
+        <a href="homepage.html"><h5 class="Parfums">Parfums <span class="otor">3 O T O R</span></h5></a>
+        <div class="search_container">
+            <input type="text" class="search" placeholder="Search your best perfume...">
+            <a href="#"><img src="images\search.png" alt="Search Icon"
+                    class="search_icon"></a>
+        </div>
+        <div class="aa">
+            <div class="a"><a href="homepage.html"><img src="images\home.png"
+                        alt="Icon" class="icon">Page d’accueil</a></div>
+            <div class="a"><a href="produits.html"><img src="images\perfume.png"
+                        alt="Icon" class="icon">Nos produits</a></div>
+            <div class="a"><a href="login.html"><img src="images\log.png" alt="Icon"
+                        class="icon">Connexion</a></div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+        </div>
+    </div>
+
+    <div class="contpart">
+        <div class="part1">
+            <div class="imgg">
+                <img src="images\king3.jpg" alt="..." loading="lazy" id="big_img">
+            </div>
+            <div class="imgg_smallcont">
+                <a
+                    onclick='document.getElementById("big_img").src="images\\king3.jpg"'><img
+                        src="images\king3.jpg" alt="..." loading="lazy"
+                        id="small_img" class="smallimg">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\king.jpg"'><img
+                        src="images\king.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\king1.jpg"'>
+                    <img src="images\king1.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+            </div>
+        </div>
+        <div class="part2">
+            <h1>K BY DOLCE&GABBANA EAU <br> DE PARFUM INTENSE</h1>
+            <h4>king</h4>
+            <p class="ppart">
+                K by Dolce&Gabbana Eau de Parfum Intense incarne le caractère intrépide <br> d’un homme sûr de lui. Le
+                parfum
+                évoque une alliance de notes fortes, persistantes et audacieuses. K by <br> Dolce&Gabbana Eau de Parfum
+                Intense est une fragrance masculine forte et charismatique, qui conjugue <br> un accord boisé et cuiré
+                séduisant avec des notes de Safran et de Figue.
+
+                Les lignes du flacon et du bouchon de K by Dolce&Gabbana Eau de Parfum <br> Intense évoquent celles de
+                la
+                fragrance originale K Eau de Parfum by Dolce&Gabbana, tandis que le verre <br> arbore une élégance
+                teinte
+                bleu nuit, qui est celle du parfum.
+            </p>
+            <div id="sous_div">
+                K BY DOLCE&GABBANA EAU DE PARFUM INTENSE is available for purchase in <br> increments of 1
+            </div>
+            <p>
+                <span class="spann1" id="prix4">932,80 MAD</span>
+                <span class="spann2">Disponibilité : En stock</span>
+            <p class="obliga">* Champs obligatoires</p>
+            <label for="Contenance">Contenance <span id="etoile">*</span></label><br><br>
+            <select name="Contenance" class="Contenance" id="prix4_Contenance" onchange="updatePrice('prix4')">
+                <option value="Choisissez">Choisissez une option...</option>
+                <option value="100ml">100ml +585,00 MAD</option>
+                <option value="50ml">50ml</option>
+            </select><br><br>
+            <input type="submit" value="Demander" id="demande_btn" onclick="demander()">        </div>
+        <div class="part3">
+            <div><img src="images\dolcegabbana.png" alt="..." loading="lazy"
+                    id="right_img">
+            </div>
+            <div class="ENGA">
+                <p>NOS ENGAGEMENTS</p>
+                <div class="nbp">
+                    <div class="nbr">1</div>
+                    <div>Paiement sécurisé</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">2</div>
+                    <div>Emballage Cadeau offert</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">3</div>
+                    <div>Livraison en 2 à 5 jours ouvrables</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">4</div>
+                    <div>Echantillons offerts</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Description_cont">
+        <button value="submit" id="Description">
+            Description du produit
+        </button><br>
+        <div class="Description_text">
+            <hr id="hr1">
+            K by Dolce&Gabbana Eau de Parfum Intense incarne le caractère intrépide d’un homme sûr de lui. Le parfum
+            évoque une alliance de notes fortes, persistantes et audacieuses. K by<br> Dolce&Gabbana Eau de Parfum
+            Intense
+            est une fragrance masculine forte et charismatique, qui conjugue un accord boisé et cuiré séduisant avec des
+            notes de Safran et de Figue.<br>
+
+            Les lignes du flacon et du bouchon de K by Dolce&Gabbana Eau de Parfum Intense évoquent celles de la
+            fragrance originale K Eau de Parfum by Dolce&Gabbana, tandis que le<br> verre arbore une élégance teinte
+            bleu
+            nuit, qui est celle du parfum. <br>
+            <hr id="hr2">
+        </div>
+    </div>
+    <button id="scrollButton" onclick="scrollToHeader()"><img src="images\arrow.png"
+        alt="not found" id="scrol" loading="lazy"></button>
+    <footer>
+        <img src="images\botoomimg.png" alt="..." loading="lazy" id="botoomimg">
+        <p class="imgpar">
+            Beauty Success | 3otor est un Réseau de 100 <br>parfumeries au Maroc, spécialiste <br> accessible de la
+            beauté globale.
+        </p>
+
+        <div class="ENGAGEMENTS">
+            <p>NOS ENGAGEMENTS</p>
+            <div class="nbp">
+                <div class="nbr">1</div>
+                <div>Paiement sécurisé</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">2</div>
+                <div>Emballage Cadeau offert</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">3</div>
+                <div>Livraison en 2 à 5 jours ouvrables</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">4</div>
+                <div>Echantillons offerts</div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://facebook.com/3otor" target="_blank">
+                <img src="images\facebook.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://instagram.com/3otor" target="_blank">
+                <img src="images\instagram.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://tiktok.com/3otor" target="_blank">
+                <img src="images\tiktok.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://twitter.com/3otor" target="_blank">
+                <img src="images\twitter.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+        </div>
+
+        <p class="adress">
+            <img src="images\pin.png" alt="..." loading="lazy" id="adte">AddressN° 2
+            , Corner Rue molay abd lah, Meknes - Morocco<br>
+            <img src="images\telephone.png" alt="..." id="adte">Fixe & Whatsapp :
+            +212 6 18 38 23 85 <br>
+            <img src="images\email.png" alt="..." loading="lazy" id="adte">E-mail :
+            GazaTravel@gmail.com
+        </p>
+        <div class="insciption">
+            <input type="email" id="email" name="email" placeholder="Saisissez votre email">
+            <a href="login.html"><input type="submit" value="Inscription" id="Inscription"></a>
+        </div>
+        <div class="divbottom">
+            <p class="botoom">
+                © 2024 Beauty Success | 3otor - Morocco
+            </p>
+            <img src="images\paiements.png" alt="..." loading="lazy" id="paiements">
+        </div>
+    </footer>
+</body>
+
+</html>

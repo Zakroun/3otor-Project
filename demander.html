@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="webesite icon" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>demander | 3otor</title>
+</head>
+
+<body id="header">
+    <div class="bare">
+        <a href="homepage.html">
+            <h5 class="Parfums">Parfums <span class="otor">3 O T O R</span></h5>
+        </a>
+        <div class="search_container">
+            <input type="text" class="search" placeholder="Search your best perfume...">
+            <a href="#"><img src="images\search.png" alt="Search Icon"
+                    class="search_icon"></a>
+        </div>
+        <div class="aa">
+            <div class="a"><a href="homepage.html"><img src="images\home.png"
+                        alt="Icon" class="icon">Page d’accueil</a></div>
+            <div class="a"><a href="produits.html"><img src="images\perfume.png"
+                        alt="Icon" class="icon">Nos produits</a></div>
+            <div class="a"><a href="login.html"><img src="images\log.png" alt="Icon"
+                        class="icon">Connexion</a></div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+        </div>
+    </div>
+
+    <p class="créezr">Demander une parfum :</p>
+    <div class="créezNou">
+        <!--Mode de commande-->
+        <div class="click">
+            <span class="sous-click">1</span>
+            <big>Mode de commande</big>
+        </div>
+        <div id="parent">
+            <div class="infoperso" id="infoperso">
+                <div class="sous-infoperso">
+                    <p>Régler en tant qu'invité ou s'enregistrer</p>
+                    <hr class="hrdiv">
+                    <h5>Enregistrez-vous et profitez de nombreux avantages :</h5>
+                    <input type="radio" name="Régler" id="Régler"><label for="Régler"><b>Régler en tant
+                            qu'invité</b></label><br>
+                    <input type="radio" name="Régler" id="enregistrer"><label
+                        for="enregistrer"><b>S'enregistrer</b></label><br><br>
+                    <h5><b><big>Gagnez du temps !</big></b></h5>
+                    <ul>
+                        Enregistrez-vous et profitez de nombreux avantages :
+                        <li>Commander plus vite et plus facilement</li>
+                        <li>Consultez et suivez vos commandes</li>
+                    </ul>
+                </div>
+                <div class="sous-infoperso">
+                    <p>Connexion</p>
+                    <hr class="hrdiv2">
+                    <label for="Adresse">Adresse E-mail : <span id="etoile">*</span></label>
+                    <input type="text" id="Adresse" required>
+                    <br><br>
+                    <label for="password">mot de passe : <span id="etoile">*</span></label>
+                    <input type="password" id="password" required><br><br>
+                    <input type="checkbox" name="checkk" id="checkk"> <label for="checkk" id="vous">Abonnez-vous à la
+                        newsletter</label><br><br>
+                    <input type="submit" value="Connexion" onclick="complet()" id="demande_btn">
+                </div>
+            </div>
+        </div>
+        <!--Informations de livraison-->
+        <div class="click">
+            <span class="sous-click">2</span>
+            <big>Informations de livraison</big>
+        </div>
+        <div id="parent2">
+            <div class="infoperso2">
+                <label for="Nom">Nom complet: <span id="etoile">*</span></label>
+                <input type="text" id="Nom" required>
+                <label for="Adresse_livraison">Adresse de livraison: <span id="etoile">*</span></label>
+                <input type="text" id="Adresse_livraison" required>
+                <br><br>
+                <label for="Ville">Ville: <span id="etoile">*</span></label>
+                <input type="text" id="Ville" required>
+                <label for="Code">Code postal: <span id="etoile">*</span></label>
+                <input type="text" id="Code" placeholder="XX XXX" required>
+                <br><br>
+                <label for="Pays">Pays: <span id="etoile">*</span></label>
+                <input type="text" id="Pays" required>
+                <label for="Numéro">Numéro de téléphone:<span id="etoile">*</span></label>
+                <input type="tel" id="Numéro" pattern="[0-9]{1,15}" required>
+                <br><br>
+                <input type="submit" value="Next" onclick="complet2()" id="demande_btn2">
+            </div>
+        </div>
+        <!--Informations de paiement-->
+        <div class="click">
+            <span class="sous-click">3</span>
+            <big>Informations de paiement</big>
+        </div>
+        <div id="parent3">
+            <div class="infoperso3">
+                <label for="Nom_carte">Nom sur la carte:<span id="etoile">*</span></label>
+                <input type="text" id="Nom_carte" required>
+                <label for="Numéro_carte">Numéro de carte:<span id="etoile">*</span></label>
+                <input type="text" id="Numéro_carte" required><img
+                    src="images\paiements.png" alt="........"
+                    id="paiementss"><br><br><br>
+                <label for="Date">Date d'expiration:<span id="etoile">*</span></label>
+                <input type="text" id="Date" placeholder="[MM/AAAA]" required>
+                <label for="Code_sécurité">Code de sécurité:<span id="etoile">*</span></label>
+                <input type="text" id="Code_sécurité" placeholder="[CVV/CVC]" pattern="[0-9]{0,4}" required><img
+                    src="images\avarie.jpg" alt="........" id="avarie"><br><br>
+                <input type="submit" value="Next" onclick="complet3()" id="demande_btn2">
+            </div>
+        </div>
+        <!--Mode de livraison-->
+        <div class="click">
+            <span class="sous-click">4</span>
+            <big>Mode de livraison</big>
+        </div>
+        <div id="parent4">
+            <div class="infoperso4">
+                <label for="Nom_carte">Mode de livraison:<span id="etoile">*</span></label>
+                <select name="Mode" id="Mode" required>
+                    <option value="Mode de livraison">Mode de livraison</option>
+                    <option value="Livraison standard">Livraison standard (3-5 jours ouvrables)</option>
+                    <option value="Livraison express">Livraison express (1-2 jours ouvrables)</option>
+                    <option value="Ramassage en magasin">Ramassage en magasin (gratuit)</option>
+                    <option value="Livraison internationale">Livraison internationale (frais supplémentaires peuvent s'appliquer)</option>
+                </select><br><br>
+                <input type="submit" value="Next" onclick="complet4()" id="demande_btn2">
+            </div>
+        </div>
+        <!--Vérification de commande-->
+        <div class="click">
+            <span class="sous-click">5</span>
+            <big>Vérification de commande</big>
+        </div>
+        <div id="parent5">
+            <div class="infoperso" id="infoperso">
+                <input type="submit" value="Afficher les informations" onclick="Afficher()" id="demande_btn">
+            </div>
+        </div>
+    </div>
+    <button id="scrollButton" onclick="scrollToHeader()"><img src="images\arrow.png"
+        alt="not found" id="scrol" loading="lazy"></button>
+    <!--footer-->
+    <footer>
+        <img src="images\botoomimg.png" alt="..." loading="lazy" id="botoomimg">
+        <p class="imgpar">
+            Beauty Success | 3otor est un Réseau de 100 <br>parfumeries au Maroc, spécialiste <br> accessible de la
+            beauté globale.
+        </p>
+        <div class="ENGAGEMENTS">
+            <p>NOS ENGAGEMENTS</p>
+            <div class="nbp">
+                <div class="nbr">1</div>
+                <div>Paiement sécurisé</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">2</div>
+                <div>Emballage Cadeau offert</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">3</div>
+                <div>Livraison en 2 à 5 jours ouvrables</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">4</div>
+                <div>Echantillons offerts</div>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com/3otor" target="_blank">
+                <img src="images\facebook.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://instagram.com/3otor" target="_blank">
+                <img src="images\instagram.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://tiktok.com/3otor" target="_blank">
+                <img src="images\tiktok.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://twitter.com/3otor" target="_blank">
+                <img src="images\twitter.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+        </div>
+        <p class="adress">
+            <img src="images\pin.png" alt="..." loading="lazy" id="adte">AddressN° 2
+            , Corner Rue molay abd lah, Meknes - Morocco<br>
+            <img src="images\telephone.png" alt="..." id="adte">Fixe & Whatsapp :
+            +212 6 18 38 23 85 <br>
+            <img src="images\email.png" alt="..." loading="lazy" id="adte">E-mail
+            :
+            GazaTravel@gmail.com
+        </p>
+        <div class="insciption">
+            <input type="email" id="email" name="email" placeholder="Saisissez votre email">
+            <a href="login.html"><input type="submit" value="Inscription" id="Inscription"></a>
+        </div>
+        <div class="divbottom">
+            <p class="botoom">
+                © 2024 Beauty Success | 3otor - Morocco
+            </p>
+            <img src="images\paiements.png" alt="..." loading="lazy" id="paiements">
+        </div>
+    </footer>
+</body>
+
+</html>

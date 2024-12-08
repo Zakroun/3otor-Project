@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="webesite icon" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>cristal | 3otor</title>
+</head>
+
+<body id="header">
+    <div class="bare">
+        <a href="homepage.html">
+            <h5 class="Parfums">Parfums <span class="otor">3 O T O R</span></h5>
+        </a>
+        <div class="search_container">
+            <input type="text" class="search" placeholder="Search your best perfume...">
+            <a href="#"><img src="images\search.png" alt="Search Icon"
+                    class="search_icon"></a>
+        </div>
+        <div class="aa">
+            <div class="a"><a href="homepage.html"><img src="images\home.png"
+                        alt="Icon" class="icon">Page d’accueil</a></div>
+            <div class="a"><a href="produits.html"><img src="images\perfume.png"
+                        alt="Icon" class="icon">Nos produits</a></div>
+            <div class="a"><a href="login.html"><img src="images\log.png" alt="Icon"
+                        class="icon">Connexion</a></div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+        </div>
+    </div>
+
+    <div class="contpart">
+        <div class="part1">
+            <div class="imgg">
+                <img src="images\cristal1.jpg" alt="..." loading="lazy" id="big_img">
+            </div>
+            <div class="imgg_smallcont">
+                <a
+                    onclick='document.getElementById("big_img").src="images\\cristal1.jpg"'><img
+                        src="images\cristal1.jpg" alt="..." loading="lazy"
+                        id="small_img" class="smallimg">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\cristal.jpg"'><img
+                        src="images\cristal.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\cristal3.jpg"'>
+                    <img src="images\cristal3.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+            </div>
+        </div>
+        <div class="part2">
+            <h1>LA VIE EST BELLE SOLEIL <br>CRISTAL</h1>
+            <h4>EAU DE PARFUM</h4>
+            <p class="ppart">
+                Le bonheur est plus qu’un sentiment, c’est une énergie. Une aura de lumière <br> qui émane et rayonne
+                tout
+                autour de vous. Sous un soleil divin, le sourire de <br>cristal de Lancôme illumine le monde de bonheur.
+                Découvrez ainsi la facette la <br>plus lumineuse de La Vie est Belle : la nouvelle eau de parfum Soleil
+                Cristal.
+
+                La fragrance: Le premier iris solaire de Lancôme, une eau de parfum à <br> l’explosion de fleurs
+                blanches
+                dont les notes de mandarine, d’Ylang-Ylang et <br>de vanille sauront vous réjouir. Un nouveau plaisir
+                spectaculaire qui s’inscrit <br> dans une approche eco-responsable grâce aux procédés d’extractions <br>
+                exclusifs
+                utilisés lors de la récolte de la vanille et du patchouli qui compose la <br> fragrance.
+
+                Le flacon : Le flacon de La vie est belle a été entièrement repensée pour <br> cette nouvelle édition.
+                Doté
+                d'une infusion de reflets holographiques, le verre <br> transparent du flacon capture l'aura rayonnante
+                d'un
+                sourire radieux. Travaillé <br> comme un cristal réfléchissant la lumière qui brille à travers sa
+                surface, il <br>
+                produit un effet chatoyant révélant une nuance infinie de couleurs. Le col est <br> orné d’ailes couleur
+                pêche rehaussées de paillettes irisées qui les font <br> scintiller.
+            </p>
+            <div id="sous_div">
+                LA VIE EST BELLE SOLEIL CRISTAL is available for purchase in <br>increments of 1
+            </div>
+            <p>
+                <span class="spann1" id="prix20">1 000,00 MAD</span>
+                <span class="spann2">Disponibilité : En stock</span>
+            <p class="obliga">* Champs obligatoires</p>
+            <label for="Contenance">Contenance <span id="etoile">*</span></label><br><br>
+            <select name="Contenance" class="Contenance" id="prix20_Contenance" onchange="updatePrice('prix20')">
+                <option value="Choisissez">Choisissez une option...</option>
+                <option value="100ml">100ml +585,00 MAD</option>
+                <option value="50ml">50ml</option>
+            </select><br><br>
+            <input type="submit" value="Demander" id="demande_btn" onclick="demander()">
+        </div>
+        <div class="part3">
+            <div><img src="images\lancome.png" alt="..." loading="lazy"
+                    id="right_img">
+            </div>
+            <div class="ENGA">
+                <p>NOS ENGAGEMENTS</p>
+                <div class="nbp">
+                    <div class="nbr">1</div>
+                    <div>Paiement sécurisé</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">2</div>
+                    <div>Emballage Cadeau offert</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">3</div>
+                    <div>Livraison en 2 à 5 jours ouvrables</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">4</div>
+                    <div>Echantillons offerts</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Description_cont">
+        <button value="submit" id="Description">
+            Description du produit
+        </button><br>
+        <div class="Description_text">
+            <hr id="hr1">
+            Le bonheur est plus qu’un sentiment, c’est une énergie. Une aura de lumière qui émane et rayonne tout autour
+            de vous. Sous un soleil divin, le sourire de cristal de Lancôme illumine le monde de<br> bonheur.  Découvrez
+            ainsi la facette la plus lumineuse de La Vie est Belle : la nouvelle eau de parfum Soleil Cristal. <br>
+
+            La fragrance: Le premier iris solaire de Lancôme, une eau de parfum à l’explosion de fleurs blanches dont
+            les notes de mandarine, d’Ylang-Ylang et de vanille sauront vous réjouir. Un nouveau <br> plaisir spectaculaire
+            qui s’inscrit dans une approche eco-responsable grâce aux procédés d’extractions exclusifs utilisés lors de
+            la récolte de la vanille et du patchouli qui compose <br> la fragrance. <br>
+
+            Le flacon : Le flacon de La vie est belle a été entièrement repensée pour cette nouvelle édition. Doté d'une
+            infusion de reflets holographiques, le verre transparent du flacon capture l'aura  rayonnante <br>d'un sourire
+            radieux. Travaillé comme un cristal réfléchissant la lumière qui brille à travers sa surface, il produit un
+            effet chatoyant révélant une nuance infinie de couleurs. Le col  est orné <br>d’ailes couleur pêche rehaussées de
+            paillettes irisées qui les font scintiller.
+            <hr id="hr2">
+        </div>
+    </div>
+    <button id="scrollButton" onclick="scrollToHeader()"><img src="images\arrow.png"
+        alt="not found" id="scrol" loading="lazy"></button>
+    <footer>
+        <img src="images\botoomimg.png" alt="..." loading="lazy" id="botoomimg">
+        <p class="imgpar">
+            Beauty Success | 3otor est un Réseau de 100 <br>parfumeries au Maroc, spécialiste <br> accessible de la
+            beauté globale.
+        </p>
+
+        <div class="ENGAGEMENTS">
+            <p>NOS ENGAGEMENTS</p>
+            <div class="nbp">
+                <div class="nbr">1</div>
+                <div>Paiement sécurisé</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">2</div>
+                <div>Emballage Cadeau offert</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">3</div>
+                <div>Livraison en 2 à 5 jours ouvrables</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">4</div>
+                <div>Echantillons offerts</div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://facebook.com/3otor" target="_blank">
+                <img src="images\facebook.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://instagram.com/3otor" target="_blank">
+                <img src="images\instagram.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://tiktok.com/3otor" target="_blank">
+                <img src="images\tiktok.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://twitter.com/3otor" target="_blank">
+                <img src="images\twitter.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+        </div>
+
+        <p class="adress">
+            <img src="images\pin.png" alt="..." loading="lazy" id="adte">AddressN° 2
+            , Corner Rue molay abd lah, Meknes - Morocco<br>
+            <img src="images\telephone.png" alt="..." id="adte">Fixe & Whatsapp :
+            +212 6 18 38 23 85 <br>
+            <img src="images\email.png" alt="..." loading="lazy" id="adte">E-mail :
+            GazaTravel@gmail.com
+        </p>
+        <div class="insciption">
+            <input type="email" id="email" name="email" placeholder="Saisissez votre email">
+            <a href="login.html"><input type="submit" value="Inscription" id="Inscription"></a>
+        </div>
+        <div class="divbottom">
+            <p class="botoom">
+                © 2024 Beauty Success | 3otor - Morocco
+            </p>
+            <img src="images\paiements.png" alt="..." loading="lazy" id="paiements">
+        </div>
+    </footer>
+</body>
+
+</html>

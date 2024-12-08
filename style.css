@@ -1,0 +1,1456 @@
+.bare {
+  position: relative;
+  top: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 260px;
+  width: 1100px;
+  height: 85px;
+  margin-left: 30px;
+}
+.Parfums {
+  color: black;
+  font-size: 28px;
+  margin-left: -280px;
+  margin-top: -1px;
+}
+.otor {
+  color: #8d2525;
+}
+.search_container {
+  margin-top: -6px;
+  margin-left: 90px;
+  position: relative;
+  width: 300px;
+  margin-right: 30px;
+}
+.search {
+  outline: 1px solid gray;
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.search_icon {
+  position: absolute;
+  right: 10px;
+  top: 55%;
+  transform: translateY(-45px);
+  width: 20px;
+}
+.aa {
+  display: flex;
+  margin-right: -350px;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+.a {
+  margin-left: 20px;
+  font-size: 20px;
+  width: 140px;
+  height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+.a:hover {
+  border-bottom: 1.5px solid #8d2525;
+}
+.barre {
+  display: flex;
+}
+.sous-bare {
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+}
+.numero {
+  font-size: 23px;
+  width: 230px;
+  color: brown;
+  margin-left: 23px;
+}
+#icon {
+  margin-right: 5px;
+  width: 20px;
+  vertical-align: middle;
+}
+.h1 {
+  color: transparent;
+  background-image: linear-gradient(to right, brown, rgb(231, 188, 136), black);
+  background-clip: text;
+  margin-left: 55px;
+  font-size: 120px;
+  position: absolute;
+  margin-top: 30px;
+}
+h3 {
+  position: absolute;
+  font-size: 22px;
+  color: rgb(231, 188, 136);
+  margin-left: 160px;
+  margin-top: 148px;
+}
+#brown {
+  width: 450px;
+  height: 450px;
+  margin-left: 660px;
+  margin-top: 2px;
+  animation-name: tranformation;
+  animation-duration: 4s;
+  animation-iteration-count: initial;
+}
+
+@keyframes tranformation {
+  from {
+    margin-left: 720px;
+  }
+  to {
+    margin-left: 660px;
+  }
+}
+.btn {
+  margin-top: -220px;
+  margin-left: 150px;
+}
+#but1 {
+  color: rgb(231, 188, 136);
+  width: 150px;
+  height: 30px;
+  background-color: brown;
+  border-radius: 10px 10px 10px 10px;
+  border: brown 2px solid;
+  cursor: pointer;
+}
+#but2 {
+  color: brown;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(231, 188, 136);
+  border-radius: 10px 10px 10px 10px;
+  border: rgb(231, 188, 136) 2px solid;
+  cursor: pointer;
+}
+#but1:hover {
+  background-color: white;
+}
+#but2:hover {
+  background-color: white;
+}
+#h3 {
+  margin-left: 27%;
+  position: absolute;
+  color: #a52a2a;
+  font-size: 27px;
+  margin-top: 190px;
+}
+#p {
+  margin-left: 24.5%;
+  position: absolute;
+  color: rgb(231, 188, 136);
+  margin-top: 220px;
+  font-size: 18px;
+}
+h2 {
+  margin-top: 280px;
+  text-align: center;
+  color: #8d2525;
+  font-size: 30px;
+  text-decoration: underline #8d2525;
+}
+
+footer {
+  margin-top: 30px;
+  height: 400px;
+  background-color: rgb(255, 228, 195);
+  border-top: #8d2525 1.5px solid;
+}
+.cont1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.cont11 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.cont2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.perfum {
+  width: 280px;
+  cursor: pointer;
+}
+h4 {
+  color: black;
+  cursor: pointer;
+}
+h4:hover {
+  color: #8d2525;
+}
+#span1 {
+  text-decoration: line-through;
+  color: gray;
+}
+#span2 {
+  color: #8d2525;
+}
+
+.h2 {
+  text-decoration: underline #8d2525;
+  margin-top: 50px;
+  text-align: center;
+  color: #8d2525;
+  font-size: 30px;
+}
+.social-media {
+  position: absolute;
+  margin-left: 83%;
+  margin-top: -150px;
+}
+#social {
+  width: 30px;
+  margin-left: 8px;
+}
+.divbottom {
+  height: 100px;
+  background-color: rgb(255, 202, 136);
+}
+.botoom {
+  font-size: 22px;
+  padding-top: 40px;
+  margin-left: 30px;
+  color: #8d2525;
+}
+#paiements {
+  margin-left: 950px;
+  margin-top: -120px;
+}
+.adress {
+  color: #8d2525;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+#adte {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#visuel {
+  width: 950px;
+  height: 350px;
+  margin-left: 11%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+.contimg1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.contimg2 {
+  display: flex;
+  flex-direction: column;
+}
+#img1 {
+  width: 470px;
+  height: 460px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#img2 {
+  width: 300px;
+  height: 460px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#img3 {
+  width: 200px;
+  height: 220px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#botoomimg {
+  margin-left: 20px;
+  width: 200px;
+}
+.imgpar {
+  color: #a52a2a;
+  margin-left: 40px;
+  margin-top: -60px;
+}
+.ENGAGEMENTS {
+  margin-top: -180px;
+  margin-left: 500px;
+}
+.nbp {
+  display: flex;
+  margin-top: 8px;
+}
+.nbr {
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: center;
+  color: wheat;
+  width: 25px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: black;
+}
+.nbr:hover {
+  background-color: #a52a2a;
+  color: wheat;
+}
+.insciption {
+  margin-top: -30px;
+  margin-left: 870px;
+}
+#email {
+  outline: none;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 0px;
+}
+#Inscription {
+  cursor: pointer;
+  border-radius: 2px;
+  height: 34px;
+  width: 100px;
+  border: 2px solid rgb(227, 184, 105);
+  background-color: rgb(227, 184, 105);
+  color: #8d2525;
+}
+#Inscription:hover {
+  background-color: #8d2525;
+  color: rgb(227, 184, 105);
+  border: 2px solid #8d2525;
+}
+#scrollButton {
+  display: none;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #8d2525;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  animation-name: opacity;
+  animation-duration: 1.4s;
+}
+@keyframes opacity {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#scrol {
+  width: 20px;
+}
+.créez {
+  font-family: sans-serif;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: black;
+}
+#hr {
+  margin-left: 0px;
+  width: 500px;
+  border-top: 1px solid rgb(197, 197, 197);
+}
+.Nouveaux {
+  width: 600px;
+  margin-left: 40px;
+}
+.titre {
+  font-size: 18px;
+}
+.paragraphe {
+  font-size: 13px;
+}
+#créer {
+  height: 35px;
+  width: 150px;
+  color: #8d2525;
+  background-color: #ffe5b6;
+  border: 2px solid #ffe5b6;
+  margin-bottom: 20px;
+}
+#créer:hover {
+  background-color: #8d2525;
+  color: #ffe5b6;
+  border: 2px solid #8d2525;
+  cursor: pointer;
+}
+.créezNouveaux {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.Adresse {
+  font-weight: bold;
+}
+#etoile {
+  color: red;
+}
+#Adresse,
+#Prénom,
+#Nom,
+#password,
+#passwordd {
+  outline: none;
+  height: 23px;
+  width: 200px;
+  border: 0.5px black solid;
+  border-radius: 0px;
+}
+.obligatoires {
+  font-size: 13px;
+  color: red;
+  margin-left: 350px;
+}
+#span3 {
+  color: gray;
+}
+#span3:hover {
+  text-decoration: underline 1px gray;
+}
+.Motdepasse {
+  color: black;
+  font-size: 13px;
+  margin-top: -40px;
+  margin-left: 350px;
+}
+.Motdepasse:hover {
+  color: #8d2525;
+  text-decoration: underline 1px #8d2525;
+}
+.créezNou {
+  margin-left: 40px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+.créezr {
+  font-family: sans-serif;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: black;
+}
+#hrr {
+  border-top: 1px solid rgb(197, 197, 197);
+}
+#vous {
+  font-size: 13px;
+}
+.Nom,
+.password {
+  margin-left: 40px;
+}
+.titl {
+  font-size: 20px;
+}
+.Champs {
+  font-size: 13px;
+  color: red;
+  margin-left: 1000px;
+}
+#créerr {
+  cursor: pointer;
+  height: 35px;
+  width: 150px;
+  color: #8d2525;
+  background-color: #ffe5b6;
+  border: 2px solid #ffe5b6;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+#créerr:hover {
+  background-color: #8d2525;
+  color: #ffc75f;
+  border: 2px solid #8d2525;
+}
+#span4 {
+  color: gray;
+}
+#span4:hover {
+  color: red;
+}
+#a {
+  margin-left: 1000px;
+}
+#h2 {
+  text-decoration: underline #8d2525;
+  margin-top: 20px;
+  text-align: center;
+  color: #8d2525;
+  font-size: 35px;
+}
+.contpart {
+  margin-top: 130px;
+  display: flex;
+}
+.part1 {
+  margin-left: 70px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.part2,
+.part3 {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part3 {
+  display: flex;
+  flex-direction: column;
+}
+.ppart {
+  font-size: 13px;
+}
+#big_img {
+  border: 1px solid rgba(169, 169, 169, 0.63);
+  width: 350px;
+  height: 370px;
+}
+#small_img {
+  cursor: pointer;
+  border: 1px solid rgb(169, 169, 169, 0.63);
+  width: 50px;
+  height: 50px;
+}
+.imgg_smallcont {
+  display: flex;
+}
+#small_img:hover {
+  border: 1px solid rgb(108, 108, 108);
+}
+#sous_div {
+  padding-top: 1%;
+  padding-left: 1%;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgba(226, 226, 226, 0.733);
+}
+.spann1 {
+  color: gray;
+  font-size: 18px;
+}
+.spann2 {
+  color: gray;
+  font-size: 12px;
+  margin-left: 50%;
+}
+.obliga {
+  font-size: 11px;
+  color: red;
+  margin-left: 72%;
+}
+.Contenance {
+  outline: none;
+  height: 25px;
+  width: 450px;
+  border: 0.5px black solid;
+  border-radius: 0px;
+}
+#demande_btn {
+  cursor: pointer;
+  height: 40px;
+  width: 170px;
+  color: #8d2525;
+  background-color: #ffe5b6;
+  border: 2px solid #ffe5b6;
+  margin-bottom: 20px;
+}
+#demande_btn:hover {
+  background-color: #8d2525;
+  color: #ffe5b6;
+  border: 2px solid #8d2525;
+}
+#Description {
+  cursor: pointer;
+  background-color: white;
+  border: 0.5px solid rgba(212, 212, 212, 0.733);
+  border-bottom: transparent;
+  height: 40px;
+  width: 170px;
+}
+#Description:hover {
+  color: #a52a2a;
+}
+.Description_text {
+  font-size: 13.5px;
+}
+#hr1 {
+  border: 0.5px solid rgba(212, 212, 212, 0.733);
+  width: 920px;
+  margin-left: 13.8%;
+  margin-top: 0px;
+}
+#hr2 {
+  border: 0.5px solid rgba(212, 212, 212, 0.733);
+  width: 1086px;
+  margin-left: 0%;
+}
+.Description_cont {
+  margin-left: 20px;
+}
+.conttt {
+  margin-top: 50px;
+}
+.H22 {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 25px;
+  color: #8d2525;
+  text-decoration: underline;
+}
+.infoperso {
+  display: flex;
+}
+.hrdiv {
+  width: 400px;
+}
+.hrdiv2 {
+  width: 400px;
+  margin-left: 0px;
+}
+.sous-infoperso {
+  margin-right: 70px;
+}
+ul {
+  font-size: 13px;
+  margin-top: -17px;
+  margin-left: -15px;
+}
+.click {
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  height: 30px;
+  background-color: rgb(238, 238, 238);
+}
+.sous-click {
+  margin-right: 15px;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  font-size: 25px;
+  background-color: black;
+}
+#parent2,
+#parent3,
+#parent4,
+#parent5 {
+  display: none;
+}
+#paiementss {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -5.5px;
+}
+
+#Adresse_livraison,
+#Ville,
+#Code,
+#Pays,
+#Numéro,
+#Nom_carte,
+#Numéro_carte,
+#Date,
+#Code_sécurité,
+#Mode {
+  outline: none;
+  height: 23px;
+  width: 200px;
+  border: 0.5px black solid;
+  border-radius: 0px;
+}
+#Nom_carte,
+#Date,
+#Nom,
+#Ville,
+#Pays {
+  margin-right: 50px;
+}
+#avarie {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 15px;
+  width: 30px;
+}
+#demande_btn2 {
+  cursor: pointer;
+  height: 40px;
+  width: 170px;
+  color: #8d2525;
+  background-color: #ffe5b6;
+  border: 2px solid #ffe5b6;
+  margin-bottom: 20px;
+  margin-left: 950px;
+}
+#demande_btn2:hover {
+  background-color: #8d2525;
+  color: #ffe5b6;
+  border: 2px solid #8d2525;
+}
+#perfum-img {
+  width: 200px;
+}
+#mothr {
+  width: 100%;
+}
+.créez2 {
+  font-family: sans-serif;
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 40px;
+  font-size: 35px;
+  color: black;
+}
+.tit {
+  font-family: sans-serif;
+  font-size: medium;
+  margin-left: 4%;
+  border-bottom: 0.1px solid rgb(163, 163, 163);
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+.motdepass {
+  margin-top: 170px;
+}
+.tit2 {
+  border-bottom: 0.1px solid rgb(163, 163, 163);
+  margin-top: 10px;
+  font-size: small;
+  margin-left: 4%;
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+.Adresse1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.tit3 {
+  margin-top: 15px;
+  margin-left: 4%;
+}
+.input {
+  margin-left: 5px;
+  border-radius: 2px;
+  outline: none;
+  width: 25px;
+  height: 28px;
+  font-size: x-large;
+  text-align: center;
+}
+.offcanvas{
+  visibility: hidden;
+}
+#offcanvas {
+  border-radius: 3px;
+  border: 2px solid #8d2525;
+  margin-top: 20px;
+  visibility: hidden;
+  width: 50px;
+  height: 40px;
+  background-color: #8d2525;
+}
+@media (max-width: 350px) {
+  .Parfums {
+    font-size: 22px;
+    margin-left: -20px;
+    margin-top: -5px;
+  }
+  .h1 {
+    margin-left: 45px;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 130px;
+  }
+  h3 {
+    position: absolute;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 180px;
+  }
+  #brown {
+    width: 170px;
+    height: 170px;
+    margin-left: 80px;
+    margin-top: 230px;
+    animation-name: tranformation2;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+  }
+
+  @keyframes tranformation2 {
+    from {
+      margin-left: 130px;
+    }
+    to {
+      margin-left: 80px;
+    }
+  }
+  .btn {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    justify-content: space-between;
+  }
+  #h3 {
+    margin-left: 18px;
+    position: absolute;
+    font-size: 14px;
+    margin-top: 28px;
+  }
+  #p {
+    text-align: center;
+    margin-left: 14px;
+    position: absolute;
+    margin-top: 48px;
+    font-size: 12.5px;
+  }
+  h2,
+  .h2 {
+    margin-top: 88px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .cont1,
+  .cont2,
+  .cont11 {
+    margin-left: 70px;
+    flex-direction: column;
+  }
+  #visuel {
+    width: 300px;
+    height: 190px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #img1 {
+    width: 130px;
+    height: 190px;
+    margin-right: 9px;
+  }
+  #img2 {
+    width: 70px;
+    height: 190px;
+    margin-right: 9px;
+  }
+  #img3 {
+    width: 55px;
+    height: 90px;
+    margin-bottom: 8px;
+  }
+  #botoomimg {
+    margin-left: 5px;
+    width: 100px;
+  }
+  .imgpar {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -30px;
+  }
+  .social-media {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  .ENGAGEMENTS {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .adress {
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  .insciption {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  footer {
+    margin-top: 30px;
+    height: 600px;
+  }
+  .botoom {
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  #paiements {
+    margin-left: 30px;
+    margin-top: 6px;
+  }
+  .bare {
+    flex-direction: column;
+  }
+  .aa {
+    display: none;
+  }
+  .search_container {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+  }
+  .search_icon {
+    right: 10px;
+    top: 55%;
+    transform: translateY(-13px);
+    width: 20px;
+  }
+  .créezNouveaux {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  .Nouveaux {
+    margin-top: 50px;
+    width: 310px;
+    margin-left: 5px;
+  }
+  .créez {
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 22px;
+  }
+  .obligatoires {
+    font-size: 13px;
+    margin-left: 190px;
+  }
+  .Motdepasse {
+    color: black;
+    font-size: 13.7px;
+    margin-top: -15px;
+    margin-left: 5px;
+  }
+  #hr {
+    width: 310px;
+  }
+  .créezr {
+    margin-top: -50px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: black;
+  }
+  .créezNou {
+    margin-left: 5px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+  }
+  .Champs {
+    font-size: 13px;
+    margin-left: 190px;
+  }
+  #a {
+    margin-left: 150px;
+  }
+  #offcanvas {
+    visibility: visible;
+    margin-left:260px;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 351px) and (max-width: 552px) {
+  .Parfums {
+    font-size: 25px;
+    margin-left: -20px;
+    margin-top: 0px;
+  }
+  .h1 {
+    margin-left: 90px;
+    font-size: 75px;
+    position: absolute;
+    margin-top: 130px;
+  }
+  h3 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 115px;
+    margin-top: 200px;
+  }
+  #brown {
+    width: 250px;
+    height: 250px;
+    margin-left: 130px;
+    margin-top: 230px;
+    animation-name: tranformation2;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+  }
+
+  @keyframes tranformation2 {
+    from {
+      margin-left: 260px;
+    }
+    to {
+      margin-left: 130px;
+    }
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 180px;
+  }
+
+  #but2 {
+    margin-top: 20px;
+  }
+  #h3 {
+    margin-left: 98px;
+    position: absolute;
+    font-size: 16px;
+    margin-top: 28px;
+  }
+  #p {
+    text-align: center;
+    margin-left: 42px;
+    position: absolute;
+    margin-top: 48px;
+    font-size: 13.5px;
+  }
+  h2,
+  .h2 {
+    margin-top: 88px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .cont1,
+  .cont2,
+  .cont11 {
+    margin-left: 35px;
+    flex-wrap: wrap;
+  }
+  .perfum {
+    width: 240px;
+    cursor: pointer;
+  }
+  #visuel {
+    width: 440px;
+    height: 260px;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+  #img1 {
+    width: 250px;
+    height: 220px;
+    margin-right: 9px;
+  }
+  #img2 {
+    width: 110px;
+    height: 220px;
+    margin-right: 9px;
+  }
+  #img3 {
+    width: 70px;
+    height: 105px;
+    margin-bottom: 8px;
+  }
+  #botoomimg {
+    margin-left: 5px;
+    width: 140px;
+  }
+  .imgpar {
+    font-size: 12px;
+    margin-left: 140px;
+    margin-top: -105px;
+  }
+  .social-media {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+  .ENGAGEMENTS {
+    margin-top: 17px;
+    margin-left: 20px;
+  }
+  .adress {
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  .insciption {
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  footer {
+    margin-top: 30px;
+    height: 500px;
+  }
+  .botoom {
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  #paiements {
+    margin-left: 110px;
+    margin-top: 6px;
+  }
+  .bare {
+    flex-direction: column;
+  }
+  .aa {
+    display: none;
+  }
+  .search_container {
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 280px;
+  }
+  .search_icon {
+    right: 10px;
+    top: 55%;
+    transform: translateY(-13px);
+    width: 20px;
+  }
+  .créezNouveaux {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  .Nouveaux {
+    margin-top: 20px;
+    width: 480px;
+    margin-left: 5px;
+  }
+  .créez {
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 22px;
+  }
+  .obligatoires {
+    font-size: 13px;
+    margin-left: 360px;
+  }
+  .Motdepasse {
+    color: black;
+    font-size: 13.7px;
+    margin-top: -15px;
+    margin-left: 5px;
+  }
+  #hr {
+    width: 480px;
+  }
+}
+@media (min-width: 553px) and (max-width: 799px) {
+  .Parfums {
+    font-size: 28px;
+    margin-left: -450px;
+    margin-top: 0px;
+  }
+  .h1 {
+    margin-left: 180px;
+    font-size: 87px;
+    position: absolute;
+    margin-top: 110px;
+  }
+  h3 {
+    position: absolute;
+    font-size: 19px;
+    margin-left: 230px;
+    margin-top: 200px;
+  }
+  #brown {
+    width: 280px;
+    height: 280px;
+    margin-left: 220px;
+    margin-top: 230px;
+    animation-name: tranformation2;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+  }
+
+  @keyframes tranformation2 {
+    from {
+      margin-left: 320px;
+    }
+    to {
+      margin-left: 220px;
+    }
+  }
+  .btn {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 220px;
+  }
+  #but1 {
+    margin-right: 10px;
+  }
+  #h3 {
+    margin-left: 170px;
+    position: absolute;
+    font-size: 16px;
+    margin-top: 28px;
+  }
+  #p {
+    text-align: center;
+    margin-left: 115px;
+    position: absolute;
+    margin-top: 48px;
+    font-size: 13.5px;
+  }
+  h2,
+  .h2 {
+    margin-top: 88px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .cont1,
+  .cont2,
+  .cont11 {
+    margin-left: 23px;
+    flex-wrap: wrap;
+  }
+  .perfum {
+    width: 240px;
+    cursor: pointer;
+  }
+  #visuel {
+    width: 540px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  #img1 {
+    width: 340px;
+    height: 300px;
+    margin-right: 9px;
+  }
+  #img2 {
+    width: 140px;
+    height: 300px;
+    margin-right: 9px;
+  }
+  #img3 {
+    width: 90px;
+    height: 145px;
+    margin-bottom: 8px;
+  }
+  #botoomimg {
+    margin-left: 5px;
+    width: 170px;
+  }
+  .imgpar {
+    font-size: 12px;
+    margin-left: 140px;
+    margin-top: -125px;
+  }
+  .social-media {
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 20px;
+  }
+  .ENGAGEMENTS {
+    margin-top: -90px;
+    margin-left: 540px;
+  }
+  .adress {
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  footer {
+    margin-top: 30px;
+    height: 480px;
+  }
+  .botoom {
+    font-size: 19px;
+    padding-top: 40px;
+    margin-left: 20px;
+  }
+  .insciption {
+    margin-top: 30px;
+    margin-left: 460px;
+  }
+  #paiements {
+    margin-left: 470px;
+    margin-top: -50px;
+  }
+  .aa {
+    display: none;
+  }
+  .search_container {
+    margin-top: 0px;
+    margin-left: -80px;
+    width: 280px;
+  }
+  .search_icon {
+    right: 10px;
+    top: 55%;
+    transform: translateY(-40px);
+    width: 20px;
+  }
+  .créezNouveaux {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  .Nouveaux {
+    margin-top: 20px;
+    width: 690px;
+    margin-left: 5px;
+  }
+  .créez {
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 22px;
+  }
+  .obligatoires {
+    font-size: 13px;
+    margin-left: 570px;
+  }
+  .Motdepasse {
+    color: black;
+    font-size: 13.7px;
+    margin-top: -40px;
+    margin-left: 570px;
+  }
+  #hr {
+    width: 690px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1199px) {
+  .Parfums {
+    font-size: 28px;
+    margin-left: -360px;
+    margin-top: 0px;
+  }
+  .h1 {
+    margin-left: 45px;
+    font-size: 100px;
+    margin-top: 180px;
+  }
+  h3 {
+    position: absolute;
+    font-size: 22px;
+    color: rgb(231, 188, 136);
+    margin-left: 95px;
+    margin-top: 280px;
+  }
+  #brown {
+    width: 390px;
+    height: 390px;
+    margin-left: 550px;
+    margin-top: 95px;
+    animation-name: tranformation;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+  }
+
+  @keyframes tranformation {
+    from {
+      margin-left: 620px;
+    }
+    to {
+      margin-left: 550px;
+    }
+  }
+  .btn {
+    margin-top: -160px;
+    margin-left: 95px;
+  }
+  #h3 {
+    margin-left: 20%;
+    position: absolute;
+    color: #a52a2a;
+    font-size: 27px;
+    margin-top: 150px;
+  }
+  #p {
+    margin-left: 18%;
+    position: absolute;
+    color: rgb(231, 188, 136);
+    margin-top: 180px;
+    font-size: 18px;
+  }
+  .perfum {
+    width: 220px;
+    cursor: pointer;
+  }
+  .cont1,
+  .cont2,
+  .cont11 {
+    margin-left: 13px;
+    flex-wrap: wrap;
+  }
+
+  #visuel {
+    width: 900px;
+    height: 350px;
+    margin-left: 5%;
+  }
+  #img1 {
+    width: 430px;
+    height: 400px;
+  }
+  #img2 {
+    width: 250px;
+    height: 400px;
+  }
+  #img3 {
+    width: 180px;
+    height: 190px;
+  }
+  .insciption {
+    margin-top: 30px;
+    margin-left: 700px;
+  }
+  #paiements {
+    margin-left: 720px;
+    margin-top: -50px;
+  }
+  .social-media {
+    position: absolute;
+    margin-left: 79%;
+    margin-top: -150px;
+  }
+  .aa {
+    display: none;
+  }
+  .Nouveaux {
+    margin-top: 20px;
+    width: 430px;
+    margin-left: 5px;
+  }
+  .Clients {
+    margin-left: 50px;
+  }
+  #hr {
+    width: 460px;
+  }
+  .créez {
+    margin-left: 5px;
+  }
+}
+@media (min-width: 1200px) {
+}

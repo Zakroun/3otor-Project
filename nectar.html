@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="webesite icon" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Nectar | 3otor</title>
+</head>
+
+<body id="header">
+    <div class="bare">
+        <a href="homepage.html"><h5 class="Parfums">Parfums <span class="otor">3 O T O R</span></h5></a>
+        <div class="search_container">
+            <input type="text" class="search" placeholder="Search your best perfume...">
+            <a href="#"><img src="images\search.png" alt="Search Icon"
+                    class="search_icon"></a>
+        </div>
+        <div class="aa">
+            <div class="a"><a href="homepage.html"><img src="images\home.png"
+                        alt="Icon" class="icon">Page d’accueil</a></div>
+            <div class="a"><a href="produits.html"><img src="images\perfume.png"
+                        alt="Icon" class="icon">Nos produits</a></div>
+            <div class="a"><a href="login.html"><img src="images\log.png" alt="Icon"
+                        class="icon">Connexion</a></div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+        </div>
+    </div>
+
+    <div class="contpart">
+        <div class="part1">
+            <div class="imgg">
+                <img src="images\nectar1.jpg" alt="..." loading="lazy" id="big_img">
+            </div>
+            <div class="imgg_smallcont">
+                <a
+                    onclick='document.getElementById("big_img").src="images\\nectar1.jpg"'><img
+                        src="images\nectar1.jpg" alt="..." loading="lazy"
+                        id="small_img" class="smallimg">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\nectar.jpg"'><img
+                        src="images\nectar.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+                <a
+                    onclick='document.getElementById("big_img").src="images\\nectar3.jpg"'>
+                    <img src="images\nectar3.jpg" alt="..." loading="lazy"
+                        id="small_img">
+                </a>
+            </div>
+        </div>
+        <div class="part2">
+            <h1>MY WAY NECTAR</h1>
+            <h4>my way</h4>
+            <p class="ppart">
+                My Way Eau de Parfum Nectar vous invite à un voyage sensoriel, capturant <br> une vision libérée de la
+                féminité. Ce parfum floral et fruité, né de la délicieuse <br> rencontre entre la poire succulente et la
+                tubéreuse rayonnante, est encapsulé <br> dans un nouveau flacon rose, couronné d'un talisman rose
+                translucide. Le <br> parfum s'ouvre sur un éclat de fraîcheur avec l'accord de poire juteuse et <br> l'accord
+                aromatique de rhubarbe. Ces notes fruitées s'harmonisent avec le <br> cœur de bergamote acidulée et la
+                fascinante fleur d'oranger dans un mélange <br> intense et vivifiant. Au cœur du parfum, un bouquet floral
+                blanc dévoile un <br> cœur crémeux d'absolu de tubéreuse. Un mélange de bois blancs et de cèdre <br> chaud
+                souligne l'infusion réconfortante de vanille Bourbon en fond, ainsi que <br> le délicat effet seconde peau
+                des muscs blancs. <br><br>
+                I AM WHAT I LIVE. <br><br>
+                FLACON: UN TALISMAN ROSE, UNE NOUVELLE DÉCLARATION FÉMININE. <br> <br>
+                Le flacon de My Way Eau de Parfum Nectar souligne l'effet doux, fruité et <br> juteux du parfum avec son
+                design entièrement rose qui propose une toute <br> nouvelle interprétation de la collection MY WAY. Le
+                nouveau talisman conserve <br> sa signature originale, avec une silhouette carrée arrondie, mais désormais <br>
+                dans un design entièrement rose, jusqu'au capot, pour une ravissante touche <br> féminine. La transparence du
+                flacon met en lumière le jus rose qu'il renferme, <br> reflétant la nature fruitée et pétillante du parfum.
+            </p>
+            <div id="sous_div">
+                MY WAY NECTAR is available for purchase in increments of 1
+            </div>
+            <p>
+                <span class="spann1" id="prix15">880,00 MAD</span>
+                <span class="spann2">Disponibilité : En stock</span>
+            <p class="obliga">* Champs obligatoires</p>
+            <label for="Contenance">Contenance <span id="etoile">*</span></label><br><br>
+            <select name="Contenance" class="Contenance" id="prix15_Contenance" onchange="updatePrice('prix15')">
+                <option value="Choisissez">Choisissez une option...</option>
+                <option value="100ml">100ml +585,00 MAD</option>
+                <option value="50ml">50ml</option>
+            </select><br><br>
+            <input type="submit" value="Demander" id="demande_btn" onclick="demander()">
+        </div>
+        <div class="part3">
+            <div><img src="images\giorgioarmani.png" alt="..." loading="lazy"
+                    id="right_img">
+            </div>
+            <div class="ENGA">
+                <p>NOS ENGAGEMENTS</p>
+                <div class="nbp">
+                    <div class="nbr">1</div>
+                    <div>Paiement sécurisé</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">2</div>
+                    <div>Emballage Cadeau offert</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">3</div>
+                    <div>Livraison en 2 à 5 jours ouvrables</div>
+                </div>
+                <div class="nbp">
+                    <div class="nbr">4</div>
+                    <div>Echantillons offerts</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Description_cont">
+        <button value="submit" id="Description">
+            Description du produit
+        </button><br>
+        <div class="Description_text">
+            <hr id="hr1">
+            My Way Eau de Parfum Nectar vous invite à un voyage sensoriel, capturant une vision libérée de la
+            féminité. Ce parfum floral et fruité, né de la délicieuse  rencontre entre la<br> poire succulente et la
+            tubéreuse rayonnante, est encapsulé  dans un nouveau flacon rose, couronné d'un talisman rose
+            translucide. Le parfum s'ouvre sur un éclat de fraîcheur avec <br>l'accord de poire juteuse et l'accord
+            aromatique de rhubarbe. Ces notes fruitées s'harmonisent avec le  cœur de bergamote acidulée et la
+            fascinante fleur d'oranger dans un mélange <br>intense et vivifiant. Au cœur du parfum, un bouquet floral
+            blanc dévoile un  cœur crémeux d'absolu de tubéreuse. Un mélange de bois blancs et de cèdre chaud
+            souligne l'infusion<br> réconfortante de vanille Bourbon en fond, ainsi que  le délicat effet seconde peau
+            des muscs blancs. <br><br>
+            I AM WHAT I LIVE. <br><br>
+            FLACON: UN TALISMAN ROSE, UNE NOUVELLE DÉCLARATION FÉMININE. <br> <br>
+            Le flacon de My Way Eau de Parfum Nectar souligne l'effet doux, fruité et  juteux du parfum avec son
+            design entièrement rose qui propose une toute  nouvelle interprétation de<br> la collection MY WAY. Le
+            nouveau talisman conserve sa signature originale, avec une silhouette carrée arrondie, mais désormais 
+            dans un design entièrement rose,<br> jusqu'au capot, pour une ravissante touche féminine. La transparence du
+            flacon met en lumière le jus rose qu'il renferme,reflétant la nature fruitée et pétillante <br>  du parfum.
+            <hr id="hr2">
+        </div>
+    </div>
+    <button id="scrollButton" onclick="scrollToHeader()"><img src="images\arrow.png"
+        alt="not found" id="scrol" loading="lazy"></button>
+    <footer>
+        <img src="images\botoomimg.png" alt="..." loading="lazy" id="botoomimg">
+        <p class="imgpar">
+            Beauty Success | 3otor est un Réseau de 100 <br>parfumeries au Maroc, spécialiste <br> accessible de la
+            beauté globale.
+        </p>
+
+        <div class="ENGAGEMENTS">
+            <p>NOS ENGAGEMENTS</p>
+            <div class="nbp">
+                <div class="nbr">1</div>
+                <div>Paiement sécurisé</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">2</div>
+                <div>Emballage Cadeau offert</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">3</div>
+                <div>Livraison en 2 à 5 jours ouvrables</div>
+            </div>
+            <div class="nbp">
+                <div class="nbr">4</div>
+                <div>Echantillons offerts</div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://facebook.com/3otor" target="_blank">
+                <img src="images\facebook.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://instagram.com/3otor" target="_blank">
+                <img src="images\instagram.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://tiktok.com/3otor" target="_blank">
+                <img src="images\tiktok.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+            <a href="https://twitter.com/3otor" target="_blank">
+                <img src="images\twitter.png" alt="not found" loading="lazy"
+                    id="social">
+            </a>
+        </div>
+
+        <p class="adress">
+            <img src="images\pin.png" alt="..." loading="lazy" id="adte">AddressN° 2
+            , Corner Rue molay abd lah, Meknes - Morocco<br>
+            <img src="images\telephone.png" alt="..." id="adte">Fixe & Whatsapp :
+            +212 6 18 38 23 85 <br>
+            <img src="images\email.png" alt="..." loading="lazy" id="adte">E-mail :
+            GazaTravel@gmail.com
+        </p>
+        <div class="insciption">
+            <input type="email" id="email" name="email" placeholder="Saisissez votre email">
+            <a href="login.html"><input type="submit" value="Inscription" id="Inscription"></a>
+        </div>
+        <div class="divbottom">
+            <p class="botoom">
+                © 2024 Beauty Success | 3otor - Morocco
+            </p>
+            <img src="images\paiements.png" alt="..." loading="lazy" id="paiements">
+        </div>
+    </footer>
+</body>
+
+</html>
